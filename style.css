@@ -1,0 +1,189 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    background: #ddd;
+}
+
+h2, h1, h3 {
+    margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+h3 {
+    font-size: 20px;
+  }
+.text-welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #511b61;
+    padding: 10px;
+    color: #fff; 
+    height: 220px;
+    padding: 10px;
+
+    justify-content: space-between;
+}
+
+@media (min-width: 800px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+  }
+
+@media (max-width: 800px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  .google {
+      width: 100%;
+      padding:15px;
+  }
+
+  .google iframe {
+      width: 100%;
+  }
+
+.right {
+    border: 5px solid #000000;  
+    margin-right: 10px;
+}
+
+.my-photo img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.my {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    align-items: center;
+}
+.bely {
+    padding: 30px ;
+    background: #fff;
+    width: 100%;
+}
+
+.block {
+
+}
+
+.grey {
+    width: 500px;
+    padding: 30px;
+}
+
+.block h1 {
+    background: #bbb;
+    color: #2e2b2b;
+    padding: 5px;
+
+}
+
+.grey-block h1 {
+    background: #bbb;
+    color: #2e2b2b;
+    padding: 5px;
+
+}
+
+.row {
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.row .left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.rows {
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+
+.rows .left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+.rowso {
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+.rowso .left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.parent {
+    margin: 1%; /* Отступы вокруг элемента */
+    background: rgb(110, 103, 119); /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    border-radius: 0 10px;
+   } 
+    .card-deck {
+    margin: 1%; /* Отступы вокруг элемента */
+    /* background: rgb(29, 5, 63); /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    border-radius: 0 10px;
+    padding-top: 10px;
+
+    background: linear-gradient(#000, rgb(29, 5, 63), rgb(29, 5, 63), #000);
+
+    }
+    .detractor {
+        margin: 10%; /* Отступы вокруг элемента */
+    background: rgb(13, 12, 15); /* Цвет фона */
+    padding: 2px; /* Поля вокруг текста */
+    border-radius: 0 10px;
+    }
+    .title {
+        text-align: center;
+        color: rgb(242, 248, 246);  
+        margin-right: 10px;
+        background: #140411;
+
+    }
+    .letter {
+        color: rgb(82, 16, 16); /* Цвет символа */
+        font-size: 100%; /* Размер шрифта */
+    }
+    .V {
+        color: rgb(17, 3, 4); /* Цвет символа */
+        font-size: 100%; /* Размер шрифта */
+    }
+    .D {
+        color: rgb(17, 3, 4); /* Цвет символа */
+        font-size: 100%; /* Размер шрифта */
+
+    }
+    .W {
+        color: rgb(17, 3, 4); /* Цвет символа */
+        font-size: 100%; /* Размер шрифта */
+    }
+    .Web {
+        color: rgb(17, 3, 4); /* Цвет символа */
+        font-size: 100%; /* Размер шрифта */
+    }
+    .titles {
+        margin: 3%; /* Отступы вокруг элемента */
+    }
